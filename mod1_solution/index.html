@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <script type="text/javascript" src="angular.min.js"></script>
+   <script type="text/javascript" src="app.js"></script>
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <meta charset="utf-8">
+   <title>Module 1. Solution</title>
+</head>
+<body ng-app="mod1">
+   <div ng-controller="mod1Controller">
+      <p class="wrn-msg" ng-show="warningMsg">{{warningMsg}}</p>
+      <textarea ng-model="text"></textarea>
+      <input type="button" value="Check If Too Much" ng-click="process()">
+      <p class="ok-msg" ng-show="enjoyMsg">{{enjoyMsg}}</p>
+   </div>
+</body>
+</html>

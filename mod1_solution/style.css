@@ -1,0 +1,16 @@
+input {
+   display: block;
+   margin-top: 5px;
+}
+.wrn-msg {
+   width: 200px;
+   border: solid 1px red;
+   color: red;
+   text-align: center;
+}
+.ok-msg {
+   width: 100px;
+   border: solid 1px green;
+   color: green;
+   text-align: center;
+}
